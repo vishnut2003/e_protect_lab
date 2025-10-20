@@ -2,6 +2,8 @@
 
 import DeafaultSection from "@/layouts/default-section";
 import { motion } from "framer-motion";
+import Image from "next/image";
+import MetrixAnimationText from "@/components/ui-elements/metrix-text";
 
 // static brand logos
 import brand1 from "./brands/brand-1.png";
@@ -15,8 +17,6 @@ import brand8 from "./brands/brand-8.png";
 import brand9 from "./brands/brand-9.png";
 import brand10 from "./brands/brand-10.png";
 import brand11 from "./brands/brand-11.png";
-import Image from "next/image";
-import MetrixAnimationText from "@/components/ui-elements/metrix-text";
 
 const TrustedCompaniesSection = () => {
 
