@@ -10,7 +10,7 @@ const TextMarquee = ({ text, maxWidth }: {
     return (
         <div
             style={{ maxWidth }}
-            className="w-full overflow-hidden py-[7px] px-[20px] bg-[#31422D33] rounded-2xl border border-theme-secondary"
+            className="w-full overflow-hidden py-[7px] px-[20px] bg-background-secondary rounded-2xl border border-theme-secondary"
         >
             <motion.div
                 className="flex items-center gap-[10px] min-w-max"

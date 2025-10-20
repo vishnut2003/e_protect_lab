@@ -39,7 +39,7 @@ body {
 }
 
 .button-outline {
-  @apply py-[10px] px-[15px] bg-[#31422D33] text-[16px] rounded-2xl text-foreground font-medium cursor-pointer border border-theme-secondary;
+  @apply py-[10px] px-[15px] bg-background-secondary text-[16px] rounded-2xl text-foreground font-medium cursor-pointer border border-theme-secondary;
 }
 
 .button-primary:hover, .button-outline:hover {
