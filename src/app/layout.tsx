@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Rethink_Sans, Poppins } from "next/font/google";
 import "./globals.css";
+import Header from "@/layouts/Header";
 
 const rethinkSans = Rethink_Sans({
   variable: "--rethink-sans",
@@ -24,6 +25,7 @@ export default function RootLayout({
       <body
         className={`${poppins.className} ${rethinkSans.variable} antialiased`}
       >
+        <Header/>
         {children}
       </body>
     </html>
