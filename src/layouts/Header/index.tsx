@@ -8,6 +8,7 @@ const Header = () => {
   return (
     <DeafaultSection
         className='flex justify-between items-center py-[15px]'
+        outerClassName='absolute top-0 left-0 z-[99]'
     >
         <div
             className='max-w-[120px] w-full shrink-0'

@@ -38,7 +38,11 @@ body {
   @apply py-[10px] px-[15px] bg-theme-primary text-[16px] rounded-2xl text-background font-medium cursor-pointer;
 }
 
-.button-primary:hover {
+.button-outline {
+  @apply py-[10px] px-[15px] bg-[#31422D33] text-[16px] rounded-2xl text-foreground font-medium cursor-pointer border border-theme-secondary;
+}
+
+.button-primary:hover, .button-outline:hover {
   animation: buttonAnim 0.8s ease-out infinite;
 }
 
