@@ -13,7 +13,7 @@ const DeafaultSection = ({
             className={`w-full px-[20px] ${outerClassName}`}
         >
             <div
-                className={`mx-auto max-w-[1140px] w-full ${className}`}
+                className={`mx-auto max-w-[1440px] w-full ${className}`}
             >{children}</div>
         </div>
     )
