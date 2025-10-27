@@ -102,6 +102,7 @@ const OurServices = () => {
                     if (service.type === "two") {
                         return (
                             <div
+                                key={index}
                                 className='flex min-h-[400px] flex-col justify-between gap-[20px] bg-cover bg-no-repeat relative rounded-2xl overflow-hidden p-[30px]'
                                 style={{
                                     backgroundImage: `url(${service.image.src})`,
@@ -131,8 +132,15 @@ const OurServices = () => {
                     if (service.type === "three") {
                         return (
                             <div
+                                key={index}
                                 className='flex min-h-[400px] flex-col justify-between gap-[20px] relative rounded-2xl overflow-hidden p-[30px] bg-background-secondary'
                             >
+
+                                <Image
+                                    src={blurGreen}
+                                    alt='Blur grapgics'
+                                    className='absolute right-[-50%] bottom-[-50%]'
+                                />
 
                                 <div
                                     className='flex flex-col gap-[25px]'
