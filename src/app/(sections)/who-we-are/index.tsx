@@ -116,7 +116,7 @@ const WhoWeAre = () => {
                                     className='text-sm opacity-50 font-light'
                                 >{data.title}</p>
                                 <p
-                                    className='text-4xl'
+                                    className='text-5xl font-rethink-sans'
                                 >
                                     <CounterText
                                         endValue={data.value}
