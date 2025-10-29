@@ -1,4 +1,5 @@
 import HeroSection from "./(sections)/hero-section";
+import OurProjectsSection from "./(sections)/our-projects";
 import OurServices from "./(sections)/our-services";
 import ParallelScrollStrap from "./(sections)/parellel-scroll-strap";
 import TrustedCompaniesSection from "./(sections)/trusted-companies-section";
@@ -15,6 +16,7 @@ export default function Home() {
       <WhoWeAre/>
       <ParallelScrollStrap/>
       <WhyChooseUs/>
+      <OurProjectsSection/>
     </div>
   );
 }
