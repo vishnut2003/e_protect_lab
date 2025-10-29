@@ -95,7 +95,7 @@ const OurProjectsSection = () => {
                         />
 
                         <div
-                            className='flex items-center gap-3 bg-theme-secondary rounded-full p-1 pr-5'
+                            className='flex items-center gap-3 bg-theme-secondary rounded-full p-1 pr-5 z-10'
                         >
                             <div
                                 className='w-8 h-8 shrink-0 bg-theme-three rounded-full flex items-center justify-center'
@@ -110,7 +110,7 @@ const OurProjectsSection = () => {
                         </div>
 
                         <div
-                            className='mt-17 flex flex-col items-start gap-4'
+                            className='mt-17 flex flex-col items-start gap-4 z-10'
                         >
                             <h3
                                 className='text-3xl font-light font-rethink-sans'
@@ -125,7 +125,7 @@ const OurProjectsSection = () => {
                         <Image
                             alt='blur'
                             src={BlurGraphics}
-                            className='min-w-[500px] absolute bottom-[-30%] left-[-20%]'
+                            className='min-w-[500px] absolute bottom-[-30%] left-[-20%] z-0'
                         />
 
                     </div>
