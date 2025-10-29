@@ -74,7 +74,7 @@ const OurExpertsSection = () => {
                 {teamList.map((profile, index) => (
                     <div
                         key={index}
-                        className='w-full bg-background-secondary border border-theme-secondary rounded-2xl p-6 pb-0 space-y-8 overflow-hidden'
+                        className='w-full bg-background-secondary border border-theme-secondary rounded-2xl p-6 pb-0 space-y-8 overflow-hidden relative'
                     >
                         <Image
                             alt={profile.name}
@@ -82,7 +82,7 @@ const OurExpertsSection = () => {
                             className='aspect-square rounded-2xl'
                         />
                         <div
-                            className='space-y-2'
+                            className='space-y-2 z-10 relative'
                         >
                             <h3
                                 className='text-2xl font-rethink-sans'
@@ -93,7 +93,7 @@ const OurExpertsSection = () => {
                         </div>
 
                         {
-                            index === 1 || index === 3 ? (
+                            index % 2 === 0 ? (
                                 <Image
                                     alt='blur'
                                     src={BlurGraphics}
