@@ -56,7 +56,7 @@ const TestmonialsCarousel = () => {
             key={index}
           >
             <div
-              className='bg-background-secondary w-full py-7 px-9 border border-theme-three/30 rounded-2xl h-full flex flex-col justify-between gap-18'
+              className='bg-background-secondary w-full py-7 px-9 border border-theme-three/30 hover:border-theme-three rounded-2xl h-full flex flex-col justify-between gap-18'
             >
               <div>
                 <div
